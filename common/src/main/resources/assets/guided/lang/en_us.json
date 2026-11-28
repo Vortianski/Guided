@@ -1,0 +1,13 @@
+{
+  "item.guided.guide_book": "Guide Book",
+
+  "guided.key_category.guided": "Guided",
+  "guided.key_mapping.toggle_read": "Toggle Read",
+  "guided.key_mapping.reload": "Reload Book",
+
+  "guided.slice.all": "All layers",
+  "guided.slice.layer": "Layer: %s",
+
+  "guided.error.message": "Hello, I am an error! Please do not discard me, the developer made a mistake when implementing something, I might be useful later!",
+  "guided.error.id": "Book ID: %s"
+}

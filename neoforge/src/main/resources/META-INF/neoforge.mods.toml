@@ -1,0 +1,31 @@
+modLoader = "javafml"
+loaderVersion = "[4,)"
+issueTrackerURL = "https://github.com/Vortianski/Guided/issues"
+license = "MIT"
+
+[[mods]]
+modId = "guided"
+version = "${version}"
+displayName = "Guided"
+authors = "Vortianski"
+description = '''
+Flexible, data-driven, dependency-free guidebook framework
+'''
+logoFile = "logo.png"
+
+[[dependencies.guided]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.guided]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[mixins]]
+config = "guided.mixins.json"

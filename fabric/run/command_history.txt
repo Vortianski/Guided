@@ -1,0 +1,7 @@
+/give @p guided:guide_book[guided:book_id="guided:default"]
+/give @p guided:guide_book[guided:book_id="guided:error"]
+/give @p guided:guide_book[guided:book_id="create:gears"]
+/give @p guided:guide_book[guided:book_id="apicius:jarring"]
+/give @p guided:guide_book[guided:book_id="apicius:preserving"]
+/give @s guided:guide_book[guided:book_id="guided_showcase39:browser"]
+/give @s guided:guide_book[guided:book_id="guided_showcase39:network"]

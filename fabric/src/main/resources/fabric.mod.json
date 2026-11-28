@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "guided",
+  "version": "${version}",
+  "name": "Guided",
+  "description": "Flexible, data-driven, dependency-free guidebook framework",
+  "authors": [
+    "Vortianski"
+  ],
+  "contact": {
+    "homepage": "https://modrinth.com/user/vortianski",
+    "sources": "https://github.com/Vortianski/Guided",
+    "issues": "https://github.com/Vortianski/Guided/issues"
+  },
+  "license": "MIT",
+  "icon": "logo.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "xox.labvorty.guided.fabric.GuidedModFabric"
+    ],
+    "client": [
+      "xox.labvorty.guided.fabric.client.GuidedModFabricClient"
+    ]
+  },
+  "mixins": [
+    "guided.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.14",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
